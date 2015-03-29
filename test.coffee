@@ -10,7 +10,7 @@ do ->
   assert.equal nx.to10('2qYo', chars), 580344
 
   assert.equal nx.toStr('4681516', chars), 'jDSk'
-  assert.equal nx.toStr('jDSk', chars), 4681516
+  assert.equal nx.to10('jDSk', chars), 4681516
 
   assert.equal nx.lpad('12321', 7, 'a'), 'aa12321'
 
