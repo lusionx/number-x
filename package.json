@@ -1,0 +1,24 @@
+{
+  "name": "number-x",
+  "version": "0.1.1",
+  "description": "number",
+  "main": "index.js",
+  "scripts": {
+    "test": "coffee test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.oschina.net/lusionx/number-x"
+  },
+  "scripts": {
+      "prepublish": "coffee -o lib -c src/*.coffee"
+  },
+  "keywords": [
+    "number"
+  ],
+  "author": "liuxing",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.6.0"
+  }
+}
