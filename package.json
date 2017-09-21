@@ -1,6 +1,6 @@
 {
   "name": "number-x",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "number",
   "main": "lib/index.js",
   "files": [
@@ -22,6 +22,5 @@
   "author": "liuxing",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.6.0"
   }
 }
